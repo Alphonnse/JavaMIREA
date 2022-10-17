@@ -3,7 +3,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class task4 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         //with calendar
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy MMMM dd HH:mm");

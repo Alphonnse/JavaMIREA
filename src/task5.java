@@ -13,8 +13,8 @@ public class task5 {
         al.add(6);
         al.add(8);
         al.remove(1);
-        al.set(0,12);
-        al.set(1,13);
+        al.set(0, 12);
+        al.set(1, 13);
         al.contains(12);
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;

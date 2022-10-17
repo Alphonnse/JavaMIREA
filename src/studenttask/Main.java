@@ -28,13 +28,13 @@ public class Main {
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SimpleDateFormat sdf = new SimpleDateFormat("dd MMMM yyyy");
-        Calendar date1 = new GregorianCalendar(2003, 6 , 25);
-        Calendar date2 = new GregorianCalendar(2003, 4 , 15);
-        Calendar date3 = new GregorianCalendar(2002, 6 , 14);
-        Calendar date4 = new GregorianCalendar(2001, 1 , 23);
-        Calendar date5 = new GregorianCalendar(1998, 3 , 26);
+        Calendar date1 = new GregorianCalendar(2003, 6, 25);
+        Calendar date2 = new GregorianCalendar(2003, 4, 15);
+        Calendar date3 = new GregorianCalendar(2002, 6, 14);
+        Calendar date4 = new GregorianCalendar(2001, 1, 23);
+        Calendar date5 = new GregorianCalendar(1998, 3, 26);
         Student[] sts = new Student[5];
         sts[0] = new Student(7, date1);
         sts[1] = new Student(3, date2);
@@ -44,7 +44,7 @@ public class Main {
 
 
         int[] arrayOfIds = new int[5];
-        for(int i = 0; i < 5; i++){
+        for (int i = 0; i < 5; i++) {
             arrayOfIds[i] = sts[i].idNumber;
         }
 
